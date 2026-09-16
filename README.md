@@ -136,6 +136,12 @@ python assist.py --agent minimax
 python human_play.py --seed 42 --count 5   # play, then compare against both agents
 ```
 
+![assist.py solving a live Wordle in four guesses, next to the finished puzzle](docs/assist-entry.png)
+
+Above, the information-gain agent solves a real Wordle from the SALET opener. The
+count in parentheses is the belief state, and it falls from 2,315 to 52 to 5 to 1;
+after METRO the only answer still consistent with all three patterns is ENTRY.
+
 `human_play.py` deals a seeded list of answers so the same words can be replayed
 through both agents afterward, which is the only fair way to compare. Session
 results are written to `results/human_*.json` and are deliberately not committed.
