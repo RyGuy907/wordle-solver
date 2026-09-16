@@ -1,0 +1,4 @@
+# Built and tested on Python 3.11.
+numpy>=1.24          # pattern table, bucket counting, agent scoring
+matplotlib>=3.7       # benchmark.py comparison chart only
+pytest>=7.0           # optional: both test files also run as plain scripts

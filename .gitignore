@@ -1,0 +1,19 @@
+# Generated pattern table (~30 MB). Rebuilt on first run in about five seconds.
+cache/
+
+# Human-play sessions are personal runs, not project results.
+results/human_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+
+# Editor and OS
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
