@@ -202,3 +202,14 @@ faces a small enough candidate set to score directly.
 Overall this was a genuinely fun project to build, and the most useful part was that
 holding one core fixed and changing only the decision rule made the difference
 between the two strategies easy to see.
+
+## License
+
+The code here is MIT licensed; see `LICENSE`. That covers what I wrote, and not the
+two word lists in `data/`, which come from the cfreshman gists of the original
+Wordle lists and are included only so the benchmarks reproduce. Wordle itself
+belongs to the New York Times.
+
+This started as a graded final project. Reading it, running it and building on it
+are all fine by me, but if you are taking a similar course, please read it rather
+than submit it.
